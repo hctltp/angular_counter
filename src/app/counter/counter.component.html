@@ -1,0 +1,12 @@
+<div class="container mt-5">
+
+    <textarea class="form-control" rows="5" [(ngModel)]="text" (keyup)="updateCounts()"
+        placeholder="Enter your text here..."></textarea>
+
+    <div class="container mt-3">
+        <p class="text-primary">Characters : {{ characterCount }}</p>
+        <p class="text-primary">Words : {{ wordCount }}</p>
+    </div>
+
+
+</div>
